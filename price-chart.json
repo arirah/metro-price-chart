@@ -1,0 +1,148 @@
+{
+  "version": "1.0.0",
+  "currency": "BDT",
+  "currency_symbol": "৳",
+  "title_en": "Dhaka Metro Rail Fare Chart (MRT Line-6)",
+  "title_bn": "ঢাকা মেট্রোরেল ভাড়ার তালিকা (এমআরটি লাইন-৬)",
+  "mrt_pass_discount_percentage": 10,
+  "stations": [
+    {
+      "id": "uttara_north",
+      "code": "UN",
+      "index": 0,
+      "name_en": "Uttara North",
+      "name_bn": "উত্তরা উত্তর"
+    },
+    {
+      "id": "uttara_center",
+      "code": "UC",
+      "index": 1,
+      "name_en": "Uttara Center",
+      "name_bn": "উত্তরা সেন্টার"
+    },
+    {
+      "id": "uttara_south",
+      "code": "US",
+      "index": 2,
+      "name_en": "Uttara South",
+      "name_bn": "উত্তরা দক্ষিণ"
+    },
+    {
+      "id": "pallabi",
+      "code": "PL",
+      "index": 3,
+      "name_en": "Pallabi",
+      "name_bn": "পল্লবী"
+    },
+    {
+      "id": "mirpur_11",
+      "code": "M11",
+      "index": 4,
+      "name_en": "Mirpur 11",
+      "name_bn": "মিরপুর ১১"
+    },
+    {
+      "id": "mirpur_10",
+      "code": "M10",
+      "index": 5,
+      "name_en": "Mirpur 10",
+      "name_bn": "মিরপুর ১০"
+    },
+    {
+      "id": "kazipara",
+      "code": "KZ",
+      "index": 6,
+      "name_en": "Kazipara",
+      "name_bn": "কাজীপাড়া"
+    },
+    {
+      "id": "shewrapara",
+      "code": "SH",
+      "index": 7,
+      "name_en": "Shewrapara",
+      "name_bn": "শেওড়াপাড়া"
+    },
+    {
+      "id": "agargaon",
+      "code": "AG",
+      "index": 8,
+      "name_en": "Agargaon",
+      "name_bn": "আগারগাঁও"
+    },
+    {
+      "id": "bijoy_sarani",
+      "code": "BS",
+      "index": 9,
+      "name_en": "Bijoy Sarani",
+      "name_bn": "বিজয় সরণি"
+    },
+    {
+      "id": "farmgate",
+      "code": "FG",
+      "index": 10,
+      "name_en": "Farmgate",
+      "name_bn": "ফার্মগেট"
+    },
+    {
+      "id": "karwan_bazar",
+      "code": "KB",
+      "index": 11,
+      "name_en": "Karwan Bazar",
+      "name_bn": "কারওয়ান বাজার"
+    },
+    {
+      "id": "shahbag",
+      "code": "SB",
+      "index": 12,
+      "name_en": "Shahbag",
+      "name_bn": "শাহবাগ"
+    },
+    {
+      "id": "dhaka_university",
+      "code": "DU",
+      "index": 13,
+      "name_en": "Dhaka University",
+      "name_bn": "ঢাকা বিশ্ববিদ্যালয়"
+    },
+    {
+      "id": "bangladesh_secretariat",
+      "code": "SEC",
+      "index": 14,
+      "name_en": "Bangladesh Secretariat",
+      "name_bn": "বাংলাদেশ সচিবালয়"
+    },
+    {
+      "id": "motijheel",
+      "code": "MJ",
+      "index": 15,
+      "name_en": "Motijheel",
+      "name_bn": "মতিঝিল"
+    },
+    {
+      "id": "kamalapur",
+      "code": "KP",
+      "index": 16,
+      "name_en": "Kamalapur",
+      "name_bn": "কমলাপুর"
+    }
+  ],
+  "fare_matrix": [
+    [0, 20, 20, 30, 30, 40, 40, 50, 60, 60, 70, 80, 80, 90, 90, 100, 100],
+    [20, 0, 20, 20, 30, 30, 40, 40, 50, 60, 60, 70, 70, 80, 90, 90, 100],
+    [20, 20, 0, 20, 20, 30, 30, 40, 40, 50, 60, 60, 70, 70, 80, 90, 90],
+    [30, 20, 20, 0, 20, 20, 20, 30, 30, 40, 50, 50, 60, 60, 70, 80, 80],
+    [30, 30, 20, 20, 0, 20, 20, 20, 30, 40, 40, 50, 60, 60, 70, 70, 80],
+    [40, 30, 30, 20, 20, 0, 20, 20, 20, 30, 30, 40, 50, 50, 60, 60, 70],
+    [40, 40, 30, 20, 20, 20, 0, 20, 20, 20, 30, 40, 40, 50, 50, 60, 70],
+    [50, 40, 40, 30, 20, 20, 20, 0, 20, 20, 20, 30, 40, 40, 50, 50, 60],
+    [60, 50, 40, 30, 30, 20, 20, 20, 0, 20, 20, 20, 30, 30, 40, 50, 50],
+    [60, 60, 50, 40, 40, 30, 20, 20, 20, 0, 20, 20, 20, 30, 40, 40, 50],
+    [70, 60, 60, 50, 40, 30, 30, 20, 20, 20, 0, 20, 20, 20, 30, 30, 40],
+    [80, 70, 60, 50, 50, 40, 40, 30, 20, 20, 20, 0, 20, 20, 20, 30, 30],
+    [80, 70, 70, 60, 60, 50, 40, 40, 30, 20, 20, 20, 0, 20, 20, 20, 30],
+    [90, 80, 70, 60, 60, 50, 50, 40, 30, 30, 20, 20, 20, 0, 20, 20, 20],
+    [90, 90, 80, 70, 70, 60, 50, 50, 40, 40, 30, 20, 20, 20, 0, 20, 20],
+    [100, 90, 90, 80, 70, 60, 60, 50, 50, 40, 30, 30, 20, 20, 20, 0, 20],
+    [100, 100, 90, 80, 80, 70, 70, 60, 50, 50, 40, 30, 30, 20, 20, 20, 0]
+  ]
+}
